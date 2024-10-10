@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "import-meta-resolve": "^4.1.0",
+        "nostr-tools": "^2.7.2",
+        "ws": "^8.18.0"
+    }
+}
+
