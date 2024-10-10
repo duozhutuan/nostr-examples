@@ -30,5 +30,5 @@ node getkey.js
 ``` 
 
 ```
-Your public key: 718537f14ee92a1d79158b07eb230d97b24bd953c5acac5db017896a6efecd21
+Your public key: npub1pf7fnmchmgj9vz6qztgkq9rrhf76fv2dm8n4zudmzpl5dtm4dewqn5yyws
 ```

@@ -1,5 +1,6 @@
 import { LocalStorage } from 'node-localstorage';
 import { generateSecretKey, getPublicKey } from 'nostr-tools/pure'
+import * as nip19 from 'nostr-tools/nip19'
 
 const localStorage = new LocalStorage('.data');
 
@@ -16,6 +17,8 @@ if (Keypriv === null){
     Keypriv = new Uint8Array(numArray)
     Keypub = getPublicKey(Keypriv) // `pk` is a hex string
 }
+const bech32PrivateKey = nip19.nsecEncode(Keypriv);
+const bech32PublicKey = nip19.npubEncode(Keypub);
 
-console.log("Your public key:",Keypub)
+console.log("Your public key:",bech32PublicKey)
 
