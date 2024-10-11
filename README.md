@@ -37,6 +37,10 @@ browser https://github.com/NostrChat/NostrChat or node chatroom.js get new messa
 ```
 node getmessage_iris.js
 ```
+# get nostribe home message list
+```
+node nostribe_home_list.js
+```
 
 # relay hub
 https://github.com/duozhutuan/relayhub
