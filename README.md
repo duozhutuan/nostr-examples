@@ -33,6 +33,10 @@ node sendmsg.js
 The program encountered an exception, but it doesn’t matter. The message was sent successfully. You can go and check it.
 browser https://github.com/NostrChat/NostrChat or node chatroom.js get new message.
 
+# get iris.to message 
+```
+node getmessage_iris.js
+```
 
 # relay hub
 https://github.com/duozhutuan/relayhub
