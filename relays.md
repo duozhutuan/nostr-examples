@@ -1,5 +1,32 @@
 
 # relay server list:
+get relay server information:
+```
+curl -H "Accept: application/nostr+json" https://relay.damus.io |jq 
+
+{
+  "contact": "jb55@jb55.com",
+  "description": "Damus strfry relay",
+  "name": "damus.io ",
+  "pubkey": "32e1827635450ebb3c5a7d12c1f8e7b2b514439ac10a67eef3d9fd9c5c68e245",
+  "software": "git+https://github.com/hoytech/strfry.git",
+  "supported_nips": [
+    1,
+    2,
+    4,
+    9,
+    11,
+    20,
+    22,
+    28,
+    40,
+    70
+  ],
+  "version": "0.9.2-88-g1d206d1ce9f2"
+}
+
+```
+
 ``` 
 {
   'wss://nostr.bitcoiner.social/': { read: true, write: true },
