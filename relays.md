@@ -1,6 +1,6 @@
 
 # relay server list:
-```json
+``` 
 {
   'wss://nostr.bitcoiner.social/': { read: true, write: true },
   'wss://relay.nostr.bg/': { read: true, write: true },
