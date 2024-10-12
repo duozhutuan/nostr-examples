@@ -6,15 +6,15 @@ Install dependency libraries
 npm install
 ```
 
-# chatroom.js
+## chatroom.js
 chatroom.js from https://github.com/NostrChat/NostrChat.
 ```
 node chatroom.js
 ```
 
-list chatroom content.
+list chatroom home page content.
 
-# getkey.js
+## getkey.js
 Generate a Nostr private key and public key to identify the user. The keys will be stored locally the first time they are generated and will not be regenerated.
 ```
 node getkey.js
@@ -24,7 +24,7 @@ node getkey.js
 Your public key: npub1pf7fnmchmgj9vz6qztgkq9rrhf76fv2dm8n4zudmzpl5dtm4dewqn5yyws
 ```
 
-# sendmsg.js
+## sendmsg.js
 Send message to https://github.com/NostrChat/NostrChat default room.
 ```
 node sendmsg.js
@@ -33,14 +33,20 @@ node sendmsg.js
 The program encountered an exception, but it doesn’t matter. The message was sent successfully. You can go and check it.
 browser https://github.com/NostrChat/NostrChat or node chatroom.js get new message.
 
-# get iris.to message 
+## get iris.to message 
 ```
 node getmessage_iris.js
 ```
-# get nostribe home message list
+## get nostribe home message list
 ```
 node nostribe_home_list.js
 ```
+## get_relay_server.js
+get some relay server
+```
+node get_relay_server.js
+``` 
+result see relays.md
 
 # relay hub
 https://github.com/duozhutuan/relayhub
