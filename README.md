@@ -48,6 +48,13 @@ node get_relay_server.js
 ``` 
 result see relays.md
 
+## add nip96 file upload web demo
+```
+cd nip96-web
+npm install
+npm run dev
+```
+
 # relay hub
 https://github.com/duozhutuan/relayhub
 
