@@ -55,6 +55,15 @@ npm install
 npm run dev
 ```
 
+
+## get user profile 、following and followers
+ 
+```
+node get_user_following_tools.js
+node get_user_followers_tools.js
+```
+
+
 # relay hub
 https://github.com/duozhutuan/relayhub
 
